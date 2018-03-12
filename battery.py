@@ -8,10 +8,10 @@ from pydub.playback import play
 
 class BatteryMonitor:
     
-    battery_path = str();
-    sound_path   = str();
-    capacity     = int();
-    status       = str();
+    battery_path = str()
+    sound_path   = str()
+    capacity     = int()
+    status       = str()
     
     def __init__(self, params):
         try:
